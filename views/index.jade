@@ -8,7 +8,7 @@ block content
   p(ng-bind="adj")
 
   label Click to show a message
-    input(type="checkbox", ng-init="seeMessage = true", ng-model="seeMessage")
+    input(type="checkbox", ng-init="seeMessage = false", ng-model="seeMessage")
   h4 seeMessage {{seeMessage}}
   h4(ng-show="seeMessage") Secret Message
 
